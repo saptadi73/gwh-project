@@ -196,6 +196,11 @@ const routes = [
     path: "/page-one",
     name: "page-one",
     component: () => import('@/pages/index/PageOne.vue'),
+  },
+  {
+    path: "/page-three",
+    name: "page-three",
+    component: () => import('@/pages/index/PageThree.vue'),
   }
  
 ];
