@@ -2,9 +2,9 @@
     <!-- Start -->
             <div class="container relative">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Top Destinations</h3>
+                    <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Pilihan Indekos untuk Pelajar/Pekerja Terbaik</h3>
 
-                    <p class="text-slate-400 max-w-xl mx-auto">Planning for a trip? We will organize your trip with the best places and within best budget!</p>
+                    <p class="text-slate-400 max-w-xl mx-auto">Ingin mendapatkan rumah indekos nyaman dan aman sekaligus memiliki fasilitas lengkap dan akses ke tempat kerja atau pendidikan lebih mudah?</p>
                 </div><!--end grid-->
 
                 <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 relative mt-6 gap-6">

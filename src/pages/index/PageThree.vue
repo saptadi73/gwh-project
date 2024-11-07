@@ -23,12 +23,14 @@
     <!-- Hero End -->
     <section class="relative md:py-24 py-16 overflow-hidden">
         <DestinationGwh/>
-        <agency />
-        <packages />
-        <users />
+        <AgencyGwh />
+        <RentalPackages />
+        <GridRuko/>
+        <UsersGwh />
+
     </section>
-    <instapost />
-    <fooTer />
+    <InstapostGwh />
+    <FooTerGwh />
     <switcher :switcherBack=true />
 </template>
 
@@ -37,15 +39,17 @@ import TaglineGwh from '@/components/TaglineGwh.vue';
 import image from '../../assets/images/bg/bg_1.jpg'
 import image2 from '../../assets/images/bg/bg_3.jpg'
 import image3 from '../../assets/images/bg/bg_6.jpg';
+import image4 from '../../assets/images/bg/bg_2.jpg';
 import DestinationGwh from '@/components/destinations/DestinationGwh.vue';
-import agency from '@/components/agency.vue';
-import packages from '@/components/tour-packages/tour-packages-12item.vue';
-import users from '@/components/users.vue';
-import instapost from '@/components/insta-post.vue';
-import fooTer from '@/components/footer.vue';
+import AgencyGwh from '@/components/AgencyGwh.vue';
+import UsersGwh from '@/components/UsersGwh.vue';
+import InstapostGwh from '@/components/InstapostGwh.vue';
+import FooTerGwh from '@/components/FooterGwh.vue';
 import selectdate from '@/components/selected-date.vue'
 import switcher from '@/components/switcher.vue'
 import NavbarGwh from '@/components/NavbarGwh.vue';
+import RentalPackages from '@/components/tour-packages/RentalPackages.vue';
+import GridRuko from '../innerpages/listing/tour-grid/GridRuko.vue';
 export default {
     name: "indexThree",
     data() {
@@ -54,7 +58,8 @@ export default {
             backgroundImages: [
                 image,
                 image2,
-                image3
+                image3,
+                image4
 
             ]
 
@@ -70,13 +75,14 @@ export default {
         TaglineGwh,
         NavbarGwh,
         DestinationGwh,
-        agency,
-        packages,
-        users,
-        instapost,
-        fooTer,
+        AgencyGwh,
+        RentalPackages,
+        UsersGwh,
+        InstapostGwh,
+        FooTerGwh,
         selectdate,
-        switcher
+        switcher,
+        GridRuko
     },
     methods: {
         changeBackground() {

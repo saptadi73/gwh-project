@@ -201,8 +201,42 @@ const routes = [
     path: "/page-three",
     name: "page-three",
     component: () => import('@/pages/index/PageThree.vue'),
-  }
- 
+  },
+  {
+    path: "/list-apartemen",
+    name: "list-apartement",
+    component: () => import('@/components/ListApartemen.vue'),
+  },
+  {
+    path: '/apartement-detail-one',
+    name: 'apartement-detail-one',
+    component: () => import('@/pages/innerpages/listing/tour-detail/ApartementDetailOne.vue')
+  },
+  {
+    path: '/list-kost',
+    name: 'list-kost-sidebar',
+    component: () => import('@/pages/innerpages/listing/tour-list/ListKosSidebar.vue')
+  },
+  {
+    path: '/kos-detail-two',
+    name: 'kos-detail-two',
+    component: () => import('@/pages/innerpages/listing/tour-detail/KosDetailTwo.vue')
+  },
+ {
+  path: '/user-profile-gwh',
+  name: 'user-profile-gwh',
+  component: () => import('@/pages/innerpages/my-account/UserProfileGwh.vue')
+ },
+ {
+  path: '/user-payment-gwh',
+  name: 'user-payment-gwh',
+  component: () => import('@/pages/innerpages/my-account/UserPaymentGwh.vue')
+ },
+ {
+  path: '/user-invoice-gwh',
+  name: 'user-invoice-gwh',
+  component: () => import('@/pages/innerpages/my-account/UserInvoiceGwh.vue')
+ },
 ];
 
 const router = createRouter({

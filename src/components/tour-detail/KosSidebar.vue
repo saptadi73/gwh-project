@@ -12,7 +12,7 @@
             <div class="mt-4">
                 <div class="md:flex">
                     <div class="md:w-1/3">
-                        <span class="font-medium">Dewasa:</span>
+                        <span class="font-medium">Berapa Bulan:</span>
                     </div>
 
                     <div class="md:w-2/3 mt-4 md:mt-0">
@@ -29,7 +29,7 @@
 
                 <div class="md:flex mt-4">
                     <div class="md:w-1/3">
-                        <span class="font-medium">Anak:</span>
+                        <span class="font-medium">Deposit:</span>
                     </div>
 
                     <div class="md:w-2/3 mt-4 md:mt-0">
