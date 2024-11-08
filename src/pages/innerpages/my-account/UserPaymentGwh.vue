@@ -170,23 +170,33 @@ export default {
             payments: [
                 {
                     image: require('../../../assets/images/payments/visa.jpg'),
-                    name: "Visa ending in 4578",
-                    date: "Expires in 12/2022"
-                },
-                {
-                    image: require('../../../assets/images/payments/american-express.jpg'),
-                    name: "American Express ending in 4578",
-                    date: "Expires in 12/2022"
-                },
-                {
-                    image: require('../../../assets/images/payments/discover.jpg'),
-                    name: "Discover ending in 4578",
-                    date: "Expires in 12/2022"
+                    name: "VISA Credit and Electronic",
+                    date: "Pay by Midtrans"
                 },
                 {
                     image: require('../../../assets/images/payments/mastercard.jpg'),
-                    name: "Master Card ending in 4578",
-                    date: "Expires in 12/2022"
+                    name: "Mastercard Credit and Electronic",
+                    date: "Pay by Midtrans"
+                },
+                {
+                    image: require('../../../assets/images/payments/bca.jpg'),
+                    name: "BCA Virtual Account",
+                    date: "untuk Nasabah BCA"
+                },
+                {
+                    image: require('../../../assets/images/payments/mandiri.jpg'),
+                    name: "Mandiri Virtual Account",
+                    date: "untuk Nasabah Bank Mandiri"
+                },
+                {
+                    image: require('../../../assets/images/payments/bri.jpg'),
+                    name: "BRI Virtual Account",
+                    date: "untuk Nasabah BRI"
+                },
+                {
+                    image: require('../../../assets/images/payments/qris.jpg'),
+                    name: "QRIS",
+                    date: "Pembayaran dengan QRIS"
                 },
             ]
         }
