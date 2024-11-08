@@ -72,6 +72,50 @@
                             </div><!--end content-->
                         </div><!--end grid-->
                     </div>
+                    <div class="mt-6">
+                        <h5 class="text-lg font-semibold mb-6">Riwayat Point</h5>
+
+                        <div class="flex text-blue-600">
+                            <div class="flex-1 w-15"><div class="flex"><i data-feather="award" class="ml-2"></i>Invoice 45201</div></div>
+                            <div class="flex-1 w-2">Reward</div>
+                            <div class="flex-1 w-1">400</div>
+                            <div class="flex-1 w-3">23 September 2024</div>
+                        </div>
+                        <div class="flex text-blue-600">
+                            <div class="flex-1 w-15"><div class="flex"><i data-feather="award" class="ml-2"></i>Invoice 45202</div></div>
+                            <div class="flex-1 w-2">Reward</div>
+                            <div class="flex-1 w-1">400</div>
+                            <div class="flex-1 w-3">23 Oktober 2024</div>
+                        </div>
+                        <div class="flex text-red-600">
+                            <div class="flex-1 w-15"><div class="flex"><i data-feather="zap" class="ml-2"></i>Invoice 45203</div></div>
+                            <div class="flex-1 w-2">Redeem</div>
+                            <div class="flex-1 w-1">3000</div>
+                            <div class="flex-1 w-3">23 November 2024</div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <h5 class="text-lg font-semibold mb-6">Riwayat Pembayaran</h5>
+
+                        <div class="flex text-slate-500">
+                            <div class="flex-1 w-15"><div class="flex">Invoice 45201</div></div>
+                            <div class="flex-1 w-2">Bayar Tepat waktu</div>
+                            <div class="flex-1 w-1">750.000</div>
+                            <div class="flex-1 w-3">23 September 2024</div>
+                        </div>
+                        <div class="flex text-slate-500">
+                            <div class="flex-1 w-15"><div class="flex">Invoice 45202</div></div>
+                            <div class="flex-1 w-2">Bayar Tepat Waktu</div>
+                            <div class="flex-1 w-1">750.000</div>
+                            <div class="flex-1 w-3">23 Oktober 2024</div>
+                        </div>
+                        <div class="flex text-slate-500">
+                            <div class="flex-1 w-15"><div class="flex">Invoice 45203</div></div>
+                            <div class="flex-1 w-2">Bayar Tepat Waktu</div>
+                            <div class="flex-1 w-1">747.000</div>
+                            <div class="flex-1 w-3">23 November 2024</div>
+                        </div>
+                    </div>
                 </div>
             </div><!--end grid-->
         </div><!--end container-->

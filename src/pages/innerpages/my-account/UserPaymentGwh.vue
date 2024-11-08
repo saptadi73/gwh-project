@@ -164,7 +164,7 @@ import switcher from '@/components/switcher.vue'
 import FooterGwh from '@/components/FooterGwh.vue';
 import NavbarGwh from '@/components/NavbarGwh.vue';
 export default {
-    name: 'userPayment',
+    name: 'UserPaymentGwh',
     data() {
         return {
             payments: [

@@ -5,7 +5,7 @@ const routes = [
   {
     path: "/",
     name: "index",
-    component: () => import('@/pages/index/index.vue'),
+    component: () => import('@/pages/index/PageThree.vue'),
   },
   {
     path: "/index-two",
@@ -203,7 +203,7 @@ const routes = [
     component: () => import('@/pages/index/PageThree.vue'),
   },
   {
-    path: "/list-apartemen",
+    path: "/list-apartement",
     name: "list-apartement",
     component: () => import('@/components/ListApartemen.vue'),
   },

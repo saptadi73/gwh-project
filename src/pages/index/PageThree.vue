@@ -8,13 +8,14 @@
         <div class="container relative">
             <div class="grid grid-cols-1">
                 <div class="text-center">
-                    <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-6xl mb-6 mt-5">Let
-                        the journey begin...</h1>
-                    <p class="text-white/70 text-xl max-w-xl mx-auto">Planning for a trip? We will organize your trip
-                        with the best places and within best budget!</p>
+                    <h1 class="font-bold text-white lg:leading-normal leading-normal text-3xl lg:text-4xl mb-6 mt-5">Kahuripan Lestari Menjamin Kenyamanan Anda Tinggal</h1>
+                    <div class="bg-black bg-transparent">
+                        <p class="font-bold text-white/70 text-xl max-w-xl mx-auto">Mencari tempat tinggal untuk anak anda yang menempuh pendidikan? Atau mencari tempat penginapan selama perjalanan dinas? Atau anda ingin mendapatkan ruko bisnis yang nyaman dan strategis?</p>
+                    </div>
+                    
 
                     <div class="mt-6">
-                        <selectdate />
+                        <SelectedTinggal />
                     </div>
                 </div>
             </div><!--end grid-->
@@ -45,11 +46,11 @@ import AgencyGwh from '@/components/AgencyGwh.vue';
 import UsersGwh from '@/components/UsersGwh.vue';
 import InstapostGwh from '@/components/InstapostGwh.vue';
 import FooTerGwh from '@/components/FooterGwh.vue';
-import selectdate from '@/components/selected-date.vue'
 import switcher from '@/components/switcher.vue'
 import NavbarGwh from '@/components/NavbarGwh.vue';
 import RentalPackages from '@/components/tour-packages/RentalPackages.vue';
 import GridRuko from '../innerpages/listing/tour-grid/GridRuko.vue';
+import SelectedTinggal from '@/components/SelectedTinggal.vue';
 export default {
     name: "indexThree",
     data() {
@@ -80,7 +81,7 @@ export default {
         UsersGwh,
         InstapostGwh,
         FooTerGwh,
-        selectdate,
+        SelectedTinggal,
         switcher,
         GridRuko
     },

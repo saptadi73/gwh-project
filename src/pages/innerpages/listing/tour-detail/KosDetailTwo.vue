@@ -1,5 +1,5 @@
 <template>
-    <navbar />
+    <NavbarGwh/>
     <section class="relative md:pb-24 pb-16 mt-20">
         <div class="container-fluid relative">
             <div class="md:flex mt-4">
@@ -91,14 +91,12 @@
     </section><!--end section-->
     <!-- End -->
     <vue-easy-lightbox :visible="visibleRef" :imgs="imgsRef" :index="indexRef" @hide="onHide"></vue-easy-lightbox>
-    <fooTer />
+    <FooterGwh/>
     <switcher :switcherBack=true />
 </template>
 
 <script>
 import VueEasyLightbox from 'vue-easy-lightbox';
-import navbar from '@/components/navbar.vue'
-import fooTer from '@/components/footer.vue';
 import switcher from '@/components/switcher.vue';
 import image from '../../../../assets/images/listing/kos_detail1.jpg';
 import image2 from '../../../../assets/images/listing/kos_detail2.jpg';
@@ -108,6 +106,8 @@ import image5 from '../../../../assets/images/listing/kos_detail5.jpg';
 import image6 from '../../../../assets/images/listing/kos_detail6.jpg';
 import KosSidebar from '@/components/tour-detail/KosSidebar.vue';
 import KosDetail from '@/components/tour-detail/KosDetail.vue';
+import NavbarGwh from '@/components/NavbarGwh.vue';
+import FooterGwh from '@/components/FooterGwh.vue';
 export default {
     name: 'detailTwo',
     data() {
@@ -149,9 +149,9 @@ export default {
         }
     },
     components: {
-        navbar,
+        NavbarGwh,
         VueEasyLightbox,
-        fooTer,
+        FooterGwh,
         switcher,
         KosSidebar,
         KosDetail

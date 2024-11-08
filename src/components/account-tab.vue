@@ -14,6 +14,20 @@
                         <h5 class="text-lg font-semibold">Jesus Zamora</h5>
                         <p class="text-slate-400">jesus@hotmail.com</p>
                     </div>
+                    <div class="mt-2">
+                        <div class="flex items-center">
+                            <div class="text-medium font-semibold mr-5 text-blue-300 flex"><i data-feather="award"></i>Point</div>
+                            <div class="ml-3">:</div>
+                            <div class="ml-5 font-bold text-red-600">2.600</div>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="flex items-center">
+                            <div class="text-medium font-semibold mr-5 text-blue-300 flex"><i data-feather="zap"></i>Saldo</div>
+                            <div class="ml-2">:</div>
+                            <div class="ml-5 font-bold text-blue-950">45.500</div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
