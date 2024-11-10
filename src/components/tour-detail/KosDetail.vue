@@ -57,6 +57,10 @@
         <p class="text-slate-400 mt-6">Memilih indekos tentulah memilih yang sangat terjangkau harganya dan memiliki akses mudah ke tempat kerja maupun belajar. Kahuripan memiliki hunian untuk kos pelajar maupun pegawai yang terjangkau dengan akses ke Stasiun KRL atau jarak yang dekat dengan kampur.</p>
         <p class="text-slate-400 mt-3">Nikmati diskon yang menawan dengan melakukan deposit pembayaran untuk beberapa bulan ke depan hubungi kami.</p>
     </div>
+    <div class="mt-6">
+        <PannellumGwh/>
+
+    </div>
 
     <div class="mt-6">
         <h5 class="text-lg font-semibold">Pertanyaan & Jawaban:</h5>
@@ -134,8 +138,10 @@
 </template>
 
 <script>
+import PannellumGwh from '../PannellumGwh.vue';
 
 export default {
+    components:{PannellumGwh},
 data() {
 return {
 datas: [

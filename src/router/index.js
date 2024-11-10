@@ -237,6 +237,26 @@ const routes = [
   name: 'user-invoice-gwh',
   component: () => import('@/pages/innerpages/my-account/UserInvoiceGwh.vue')
  },
+ {
+  path: '/app-pannellum',
+  name: 'app-pannellum',
+  component: () => import('@/components/AppPannellum.vue')
+ },
+ {
+  path: '/vue-pannellum',
+  name: 'vue-pannellum',
+  component: () => import('@/components/vue-pannellum.vue')
+ },
+ {
+  path: '/pannellum-gwh',
+  name: 'pannellum-gwh',
+  component: () => import('@/components/PannellumGwh.vue')
+ },
+ {
+  path: '/gambar-url',
+  name: 'gambar-url',
+  component: () => import('@/components/GambarUrl.vue')
+ }
 ];
 
 const router = createRouter({

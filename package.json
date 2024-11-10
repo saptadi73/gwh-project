@@ -20,7 +20,9 @@
     "vue": "^3.2.13",
     "vue-countup-v3": "^1.4.1",
     "vue-easy-lightbox": "^1.19.0",
-    "vue-router": "^4.0.13"
+    "vue-pannellum": "^0.5.3",
+    "vue-router": "^4.0.13",
+    "vuejs-vr": "^1.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
