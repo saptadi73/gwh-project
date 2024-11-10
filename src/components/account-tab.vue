@@ -33,8 +33,8 @@
 
             <div class="border-t border-gray-100 dark:border-gray-700">
                 <ul class="list-none sidebar-nav mb-0 pb-0" id="navmenu-nav">
-                    <li class="navbar-item ms-0 account-menu" :class="currentUrl == '/user-profile' ? 'active' : ''">
-                        <router-link to="/user-account"
+                    <li class="navbar-item ms-0 account-menu" :class="currentUrl == '/user-profile-gwh' ? 'active' : ''">
+                        <router-link to="/user-profile-gwh"
                             class="navbar-link text-slate-400 flex items-center py-2 rounded">
                             <span class="me-2 mb-0"><i data-feather="airplay" class="size-4"></i></span>
                             <h6 class="mb-0 font-medium">Profile</h6>
@@ -42,7 +42,7 @@
                     </li>
 
                     <li class="navbar-item ms-0 account-menu" :class="currentUrl == '/user-payment' ? 'active' : ''">
-                        <router-link to="/user-payment"
+                        <router-link to="/user-payment-gwh"
                             class="navbar-link text-slate-400 flex items-center py-2 rounded">
                             <span class="me-2 mb-0"><i data-feather="credit-card" class="size-4"></i></span>
                             <h6 class="mb-0 font-medium">Payment</h6>
@@ -50,7 +50,7 @@
                     </li>
 
                     <li class="navbar-item ms-0 account-menu" :class="currentUrl == '/user-invoice' ? 'active' : ''">
-                        <router-link to="/user-invoice"
+                        <router-link to="/user-list-invoice"
                             class="navbar-link text-slate-400 flex items-center py-2 rounded">
                             <span class="me-2 mb-0"><i data-feather="file-text" class="size-4"></i></span>
                             <h6 class="mb-0 font-medium">Invoice</h6>

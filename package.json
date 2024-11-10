@@ -13,6 +13,7 @@
     "@vuepic/vue-datepicker": "^8.3.1",
     "core-js": "^3.8.3",
     "feather-icons": "^4.29.1",
+    "flowbite": "^2.5.2",
     "sass": "^1.72.0",
     "sass-loader": "^14.1.1",
     "swiper": "^11.0.7",

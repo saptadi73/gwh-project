@@ -256,7 +256,17 @@ const routes = [
   path: '/gambar-url',
   name: 'gambar-url',
   component: () => import('@/components/GambarUrl.vue')
- }
+ },
+ {
+  path: '/user-registration',
+  name: 'user-registration',
+  component: () => import('@/pages/innerpages/my-account/UserRegistration.vue')
+ },
+ {
+  path: '/user-list-invoice',
+  name: 'user-list-invoice',
+  component: () => import('@/pages/innerpages/my-account/UserListInvoice.vue')
+ },
 ];
 
 const router = createRouter({

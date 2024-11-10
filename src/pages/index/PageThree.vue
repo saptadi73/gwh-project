@@ -15,7 +15,7 @@
                     
 
                     <div class="mt-6">
-                        <SelectedTinggal />
+                        <SelectedTanggal />
                     </div>
                 </div>
             </div><!--end grid-->
@@ -50,7 +50,7 @@ import switcher from '@/components/switcher.vue'
 import NavbarGwh from '@/components/NavbarGwh.vue';
 import RentalPackages from '@/components/tour-packages/RentalPackages.vue';
 import GridRuko from '../innerpages/listing/tour-grid/GridRuko.vue';
-import SelectedTinggal from '@/components/SelectedTinggal.vue';
+import SelectedTanggal from '@/components/SelectedTanggal.vue';
 export default {
     name: "indexThree",
     data() {
@@ -81,7 +81,7 @@ export default {
         UsersGwh,
         InstapostGwh,
         FooTerGwh,
-        SelectedTinggal,
+        SelectedTanggal,
         switcher,
         GridRuko
     },

@@ -4,7 +4,7 @@
     <section class="relative lg:pb-24 pb-16 md:mt-[84px] mt-[70px]">
         <div class="md:container container-fluid relative">
             <div
-                class="relative overflow-hidden md:rounded-md shadow dark:shadow-gray-800 h-52 bg-[url('../../assets/images/bg/cta.jpg')] bg-center bg-no-repeat bg-cover">
+                class="relative overflow-hidden md:rounded-md shadow dark:shadow-gray-800 h-52 bg-[url('../../assets/images/bg/bg_kos.jpg')] bg-center bg-no-repeat bg-cover">
             </div>
         </div><!--end container-->
 
