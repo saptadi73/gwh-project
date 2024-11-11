@@ -2,7 +2,7 @@
     <!-- Loader End -->
     <section class="md:h-screen py-36 flex items-center relative overflow-hidden zoom-image">
         <div
-            class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/bg/6.jpg')] bg-no-repeat bg-center bg-cover">
+            class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/bg/bg_3.jpg')] bg-no-repeat bg-center bg-cover">
         </div>
         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black z-2" id="particles-snow"></div>
         <div class="container relative z-3">

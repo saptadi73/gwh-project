@@ -1,7 +1,7 @@
 <template>
     <div>
         <section
-            class="md:h-screen py-36 flex items-center bg-[url('../../assets/images/bg/6.jpg')]  bg-no-repeat bg-center bg-cover">
+            class="md:h-screen py-36 flex items-center bg-[url('../../assets/images/bg/bg_1.jpg')]  bg-no-repeat bg-center bg-cover">
             <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
             <div class="container relative">
                 <div class="flex justify-center">

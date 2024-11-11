@@ -58,26 +58,24 @@
                                            <li class="mt-[10px] ms-0"><router-link to="" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Services</router-link></li>
                                            <li class="mt-[10px] ms-0"><router-link to="" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Team</router-link></li>
                                            <li class="mt-[10px] ms-0"><router-link to="" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Pricing</router-link></li>
-                                           <li class="mt-[10px] ms-0"><router-link to="/blogs" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Blog</router-link></li>
-                                           <li class="mt-[10px] ms-0"><router-link to="/login" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Login</router-link></li>
                                        </ul>
                                    </div>
                                </div><!--end col-->
    
                                <div class="lg:col-span-3 md:col-span-4">
-                                   <h5 class="tracking-[1px] text-gray-100 font-semibold">Newsletter</h5>
-                                   <p class="mt-6">Sign up and receive the latest tips via email.</p>
+                                   <h5 class="tracking-[1px] text-gray-100 font-semibold">Update Informasi</h5>
+                                   <p class="mt-6">Daftarkan email anda untuk mendapatkan update promo dan informasi terbaru dari kami.</p>
                                    <form>
                                        <div class="grid grid-cols-1">
                                            <div class="my-3">
-                                               <label class="form-label">Write your email <span class="text-red-600">*</span></label>
+                                               <label class="form-label">email <span class="text-red-600">*</span></label>
                                                <div class="form-icon relative mt-2">
                                                    <i data-feather="mail" class="size-4 absolute top-3 start-4"></i>
                                                    <input type="email" class="ps-12 rounded w-full py-2 px-3 h-10 bg-gray-800 border-0 text-gray-100 focus:shadow-none focus:ring-0 placeholder:text-gray-200 outline-none" placeholder="Email" name="email" required="">
                                                </div>
                                            </div>
                                        
-                                           <button type="submit" id="submitsubscribe" name="send" class="py-2 px-5 inline-block font-semibold tracking-wide align-middle duration-500 text-base text-center bg-red-500 text-white rounded-md">Subscribe</button>
+                                           <button type="submit" id="submitsubscribe" name="send" class="py-2 px-5 inline-block font-semibold tracking-wide align-middle duration-500 text-base text-center bg-red-500 text-white rounded-md">Daftar</button>
                                        </div>
                                    </form>
                                </div><!--end col-->
@@ -91,7 +89,7 @@
                <div class="container relative text-center">
                    <div class="grid grid-cols-1">
                        <div class="text-center">
-                           <p class="mb-0">© {{ date }} Travosy. Design & Develop with <i class="mdi mdi-heart text-red-600"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                           <p class="mb-0">© {{ date }} Kahuripan Lestari. Design & Develop with <i class="mdi mdi-heart text-red-600"></i> by <a href="https://rimang.id/" target="_blank" class="text-reset">Gagak Rimang Teknologi</a>.</p>
                        </div>
                    </div><!--end grid-->
                </div><!--end container-->

@@ -82,9 +82,9 @@
 </template>
 
 <script>
-import navbar from '@/components/navbar.vue';
+import navbar from '@/components/NavbarGwh.vue';
 import usertab from '@/components/account-tab.vue'
-import fooTer from '@/components/footer.vue';
+import fooTer from '@/components/FooterGwh.vue';
 import switcher from '@/components/switcher.vue'
 export default {
     name: "userSocial",

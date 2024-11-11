@@ -227,7 +227,7 @@
           <li
             class="has-submenu parent-menu-item"
             :class="
-              ['/user-profile-gwh', '/user-invoice-gwh','/user-payment-gwh'].includes(activeMenu)
+              ['/user-profile-gwh', '/user-list-invoice','/user-payment-gwh'].includes(activeMenu)
                 ? 'active'
                 : ''
             "
@@ -238,7 +238,7 @@
             <ul
               class="submenu"
               :class="
-                ['/user-profile-gwh', '/user-invoice-gwh','/user-payment-gwh'].includes(menuOpen)
+                ['/user-profile-gwh', '/user-list-invoice','/user-payment-gwh'].includes(menuOpen)
                   ? 'open'
                   : ''
               "
@@ -248,8 +248,8 @@
                   >User Profile</router-link
                 >
               </li>
-              <li :class="activeMenu === '/user-invoice-gwh' ? 'active' : ''">
-                <router-link to="/user-invoice-gwh" class="sub-menu-item"
+              <li :class="activeMenu === '/user-list-invoice' ? 'active' : ''">
+                <router-link to="/user-list-invoice" class="sub-menu-item"
                   >User Invoice</router-link
                 >
               </li>
@@ -261,194 +261,7 @@
             </ul>
           </li>
 
-          <li
-            class="has-submenu parent-parent-menu-item"
-            :class="
-              [
-                '/grid',
-                '/grid-left-sidebar',
-                '/grid-right-sidebar',
-                '/index-listing',
-                '/index-grid',
-                '/list',
-                '/list-left-sidebar',
-                '/list-right-sidebar',
-                '/index-list',
-                '/tour-detail-one',
-                '/tour-detail-two',
-                '/index-detail',
-              ].includes(activeMenu)
-                ? 'active'
-                : ''
-            "
-          >
-            <router-link to="" @click="submenu('/index-listing')">
-              Listing <span class="menu-arrow"></span
-            ></router-link>
-            <ul
-              class="submenu"
-              :class="
-                [
-                  '/index-listing',
-                  '/index-grid',
-                  '/index-list',
-                  '/index-detail',
-                ].includes(menuOpen)
-                  ? 'open'
-                  : ''
-              "
-            >
-              <li
-                class="has-submenu parent-menu-item"
-                :class="
-                  [
-                    '/grid',
-                    '/grid-left-sidebar',
-                    '/grid-right-sidebar',
-                    '/index-listing',
-                  ].includes(activeMenu)
-                    ? 'active'
-                    : ''
-                "
-              >
-                <router-link to="" @click="submenu('/index-grid')"
-                  >Tour Grid <span class="submenu-arrow"></span
-                ></router-link>
-                <ul
-                  class="submenu"
-                  :class="
-                    [
-                      '/grid',
-                      '/grid-left-sidebar',
-                      '/grid-right-sidebar',
-                      '/index-grid',
-                    ].includes(menuOpen)
-                      ? 'open'
-                      : ''
-                  "
-                >
-                  <li :class="activeMenu === '/grid' ? 'active' : ''">
-                    <router-link to="/grid" class="sub-menu-item"
-                      >Grid</router-link
-                    >
-                  </li>
-                  <li
-                    :class="activeMenu === '/grid-left-sidebar' ? 'active' : ''"
-                  >
-                    <router-link to="/grid-left-sidebar" class="sub-menu-item"
-                      >Grid Left Sidebar</router-link
-                    >
-                  </li>
-                  <li
-                    :class="
-                      activeMenu === '/grid-right-sidebar' ? 'active' : ''
-                    "
-                  >
-                    <router-link to="/grid-right-sidebar" class="sub-menu-item"
-                      >Grid Right Sidebar</router-link
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li
-                class="has-submenu parent-menu-item"
-                :class="
-                  [
-                    '/list',
-                    '/list-left-sidebar',
-                    '/list-right-sidebar',
-                    '/index-list',
-                  ].includes(activeMenu)
-                    ? 'active'
-                    : ''
-                "
-              >
-                <router-link to="" @click="submenu('/index-list')"
-                  >Tour List <span class="submenu-arrow"></span
-                ></router-link>
-                <ul
-                  class="submenu"
-                  :class="
-                    [
-                      '/list',
-                      '/list-left-sidebar',
-                      '/list-right-sidebar',
-                      '/index-list',
-                    ].includes(menuOpen)
-                      ? 'open'
-                      : ''
-                  "
-                >
-                  <li :class="activeMenu === '/list' ? 'active' : ''">
-                    <router-link to="/list" class="sub-menu-item"
-                      >List</router-link
-                    >
-                  </li>
-                  <li
-                    :class="activeMenu === '/list-left-sidebar' ? 'active' : ''"
-                  >
-                    <router-link to="/list-left-sidebar" class="sub-menu-item"
-                      >List Left Sidebar</router-link
-                    >
-                  </li>
-                  <li
-                    :class="
-                      activeMenu === '/list-right-sidebar' ? 'active' : ''
-                    "
-                  >
-                    <router-link to="/list-right-sidebar" class="sub-menu-item"
-                      >List Right Sidebar</router-link
-                    >
-                  </li>
-                </ul>
-              </li>
-
-              <li
-                class="has-submenu parent-menu-item"
-                :class="
-                  [
-                    '/tour-detail-one',
-                    '/tour-detail-two',
-                    '/index-detail',
-                  ].includes(activeMenu)
-                    ? 'active'
-                    : ''
-                "
-              >
-                <router-link to="" @click="submenu('/index-detail')">
-                  Tour Detail <span class="submenu-arrow"></span
-                ></router-link>
-                <ul
-                  class="submenu"
-                  :class="
-                    [
-                      '/tour-detail-one',
-                      '/tour-detail-two',
-                      '/index-detail',
-                    ].includes(menuOpen)
-                      ? 'open'
-                      : ''
-                  "
-                >
-                  <li
-                    :class="activeMenu === '/tour-detail-one' ? 'active' : ''"
-                  >
-                    <router-link to="/tour-detail-one" class="sub-menu-item"
-                      >Tour Detail One</router-link
-                    >
-                  </li>
-                  <li
-                    :class="activeMenu === '/tour-detail-two' ? 'active' : ''"
-                  >
-                    <router-link to="/tour-detail-two" class="sub-menu-item"
-                      >Tour Detail Two</router-link
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
+          
 
           <li
             class="has-submenu parent-parent-menu-item"
@@ -456,10 +269,10 @@
               [
                 '/aboutus',
                 '/index-pages',
-                '/user-profile',
+                '/user-profile-gwh',
                 '/user-billing',
-                '/user-payment',
-                '/user-invoice',
+                '/user-payment-gwh',
+                '/user-list-invoice',
                 '/user-social',
                 '/user-notification',
                 '/user-setting',
@@ -515,10 +328,10 @@
                 class="has-submenu parent-menu-item"
                 :class="
                   [
-                    '/user-profile',
+                    '/user-profile-gwh',
                     '/user-billing',
-                    '/user-payment',
-                    '/user-invoice',
+                    '/user-payment-gwh',
+                    '/user-list-invoice',
                     '/user-social',
                     '/user-notification',
                     '/user-setting',
@@ -535,10 +348,10 @@
                   class="submenu"
                   :class="
                     [
-                      '/user-profile',
+                      '/user-profile-gwh',
                       '/user-billing',
-                      '/user-payment',
-                      '/user-invoice',
+                      '/user-payment-gwh',
+                      '/user-list-invoice',
                       '/user-social',
                       '/user-notification',
                       '/user-setting',
@@ -548,18 +361,18 @@
                       : ''
                   "
                 >
-                  <li :class="activeMenu === '/user-profile' ? 'active' : ''">
-                    <router-link to="/user-profile" class="sub-menu-item"
+                  <li :class="activeMenu === '/user-profile-gwh' ? 'active' : ''">
+                    <router-link to="/user-profile-gwh" class="sub-menu-item"
                       >User Account</router-link
                     >
                   </li>
-                  <li :class="activeMenu === '/user-payment' ? 'active' : ''">
-                    <router-link to="/user-payment" class="sub-menu-item"
+                  <li :class="activeMenu === '/user-payment-gwh' ? 'active' : ''">
+                    <router-link to="/user-payment-gwh" class="sub-menu-item"
                       >Payment</router-link
                     >
                   </li>
-                  <li :class="activeMenu === '/user-invoice' ? 'active' : ''">
-                    <router-link to="/user-invoice" class="sub-menu-item"
+                  <li :class="activeMenu === '/user-list-invoice' ? 'active' : ''">
+                    <router-link to="/user-list-invoice" class="sub-menu-item"
                       >Invoice</router-link
                     >
                   </li>
@@ -782,58 +595,7 @@
             </ul>
           </li>
 
-          <li
-            class="has-submenu parent-menu-item"
-            :class="
-              [
-                '/blogs',
-                '/blog-standard',
-                '/blog-detail',
-                '/index-blogs',
-              ].includes(activeMenu)
-                ? 'active'
-                : ''
-            "
-          >
-            <router-link to="" @click="submenu('/index-blogs')"
-              >Blog<span class="menu-arrow"></span
-            ></router-link>
-            <ul
-              class="submenu"
-              :class="
-                [
-                  '/blogs',
-                  '/blog-standard',
-                  '/blog-detail',
-                  '/index-blogs',
-                ].includes(menuOpen)
-                  ? 'open'
-                  : ''
-              "
-            >
-              <li :class="activeMenu === '/blogs' ? 'active' : ''">
-                <router-link to="/blogs" class="sub-menu-item">
-                  Blogs</router-link
-                >
-              </li>
-              <li :class="activeMenu === '/blog-standard' ? 'active' : ''">
-                <router-link to="/blog-standard" class="sub-menu-item">
-                  Blog Standard</router-link
-                >
-              </li>
-              <li :class="activeMenu === '/blog-detail' ? 'active' : ''">
-                <router-link to="/blog-detail" class="sub-menu-item">
-                  Blog Detail</router-link
-                >
-              </li>
-            </ul>
-          </li>
-
-          <li :class="activeMenu === '/contact' ? 'active' : ''">
-            <router-link to="/contact" class="sub-menu-item"
-              >Contact Us</router-link
-            >
-          </li>
+          
         </ul>
         <!--end navigation menu-->
       </div>

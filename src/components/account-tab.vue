@@ -82,6 +82,14 @@
                         </router-link>
                     </li>
 
+                    <li class="navbar-item ms-0 account-menu" :class="currentUrl == '/user-registration' ? 'active' : ''">
+                        <router-link to="/user-registration"
+                            class="navbar-link text-slate-400 flex items-center py-2 rounded">
+                            <span class="me-2 mb-0"><i data-feather="settings" class="size-4"></i></span>
+                            <h6 class="mb-0 font-medium">User Registration</h6>
+                        </router-link>
+                    </li>
+
                     <li class="navbar-item ms-0 account-menu" :class="currentUrl == '/user-screen' ? 'active' : ''">
                         <router-link to="/lock-screen"
                             class="navbar-link text-slate-400 flex items-center py-2 rounded">
