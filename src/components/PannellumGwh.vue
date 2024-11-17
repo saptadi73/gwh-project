@@ -6,13 +6,17 @@
 
 <script>
 import imageUrl from '../assets/images/equirectangular/wooden-lounge.png'
-    export default{
-        data() {
-            return{
-                equirectangularUrl: imageUrl,
-            }
+
+export default {
+
+    data() {
+        return {
+            equirectangularUrl: imageUrl,
         }
     }
+
+}
+
 </script>
 
 <style lang="scss" scoped>

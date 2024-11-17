@@ -6,20 +6,20 @@
             <div class="range-slider mt-3">
                 <span class="flex justify-between pb-2">
                     <span>
-                        <label for="" class="text-lg" >$</label>
-                        <input type="number" class="text-slate-400 ps-1" value="50" min="0" max="200"
+                        <label for="" class="text-lg" >Rp</label>
+                        <input type="number" class="text-slate-400 ps-1" value="500000" min="0" max="2000000"
                             v-model="numberValues[0]" @input="updateSliders" />
                     </span>
 
                     <span>
-                        <label for="" class="text-lg">$</label>
-                        <input type="number" class="text-slate-400 ps-1" value="120" min="0" max="200"
+                        <label for="" class="text-lg">Rp</label>
+                        <input type="number" class="text-slate-400 ps-1" value="12000000" min="0" max="200000000"
                             v-model="numberValues[1]" @input="updateSliders" />
                     </span>
                 </span>
-                <input value="50" min="0" max="200" step="5" type="range" v-model="rangeValues[0]"
+                <input value="500000" min="0" max="200000000" step="5" type="range" v-model="rangeValues[0]"
                     @input="updateNumbers" />
-                <input value="120" min="0" max="200" step="5" type="range" v-model="rangeValues[1]"
+                <input value="12000000" min="0" max="200000000" step="5" type="range" v-model="rangeValues[1]"
                     @input="updateNumbers" />
             </div>
         </div>

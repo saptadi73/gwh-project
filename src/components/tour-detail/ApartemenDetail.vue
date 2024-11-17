@@ -189,7 +189,7 @@
 </template>
 
 <script>
-import PannellumGwh from "../PannellumGwh.vue";
+import PannellumGwh from "../PannellumGwh3.vue";
 export default {
   components: { PannellumGwh },
   data() {

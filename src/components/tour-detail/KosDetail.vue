@@ -138,7 +138,7 @@
 </template>
 
 <script>
-import PannellumGwh from '../PannellumGwh.vue';
+import PannellumGwh from '../PannellumGwh2.vue';
 
 export default {
     components:{PannellumGwh},
