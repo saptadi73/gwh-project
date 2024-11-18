@@ -3,10 +3,11 @@
     <section class="relative  overflow-hidden" id="destinations">
         <div class="container relative">
             <div class="grid grid-cols-1 pb-8 text-center">
-                <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Jenis Hunian dan Tempat Usaha
+                <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Top Destinations
                 </h3>
 
-                <p class="text-slate-400 max-w-xl mx-auto">Pilihan jenis tempat tinggal dan usaha pilihan anda</p>
+                <p class="text-slate-400 max-w-xl mx-auto">Planning for a trip? We will organize your trip with the best
+                    places and within best budget!</p>
             </div><!--end grid-->
 
             <div v-if="Destinations" class="grid grid-cols-1 relative mt-6">
@@ -69,39 +70,39 @@ export default {
         return {
             destinations: [
                 {
-                    image: require('../../assets/images/listing/listing_93.jpg'),
-                    place: 'Indekos',
-                    hotel: 'Depok, Bandung'
+                    image: require('../../assets/images/listing/listing_1.jpg'),
+                    place: 'Depok, Jakarta',
+                    hotel: '123 kamar kost, 1 ruko'
                 },
                 {
                     image: require('../../assets/images/listing/listing_2.jpg'),
-                    place: 'Rumah',
-                    hotel: 'Jakarta, Bandung, Depok'
+                    place: 'Singapore',
+                    hotel: '3 Hotels'
                 },
                 {
-                    image: require('../../assets/images/listing/listing_1.jpg'),
-                    place: 'Apartemen',
-                    hotel: 'Jakarta, Bandung'
+                    image: require('../../assets/images/listing/listing_3.jpg'),
+                    place: 'Paris, France',
+                    hotel: '3 Hotels'
                 },
                 {
-                    image: require('../../assets/images/listing/ruko_8.jpg'),
-                    place: 'Lapak',
-                    hotel: 'Jakarta, Bandung'
+                    image: require('../../assets/images/listing/listing_4.jpg'),
+                    place: 'Goa, India',
+                    hotel: '3 Hotels'
                 },
                 {
-                    image: require('../../assets/images/listing/villa_1.jpg'),
-                    place: 'Villa',
-                    hotel: 'Bandung'
+                    image: require('../../assets/images/listing/listing_5.jpg'),
+                    place: 'Whistler, Canada',
+                    hotel: '3 Hotels'
                 },
                 {
-                    image: require('../../assets/images/listing/ruko_4.jpg'),
-                    place: 'Ruko',
-                    hotel: 'Bandung, Jakarta'
+                    image: require('../../assets/images/listing/listing_6.jpg'),
+                    place: 'Kuala Lumpur, Malaysia',
+                    hotel: '3 Hotels'
                 },
                 {
-                    image: require('../../assets/images/listing/kantor_1.jpg'),
-                    place: 'Kantor',
-                    hotel: 'Jakarta'
+                    image: require('../../assets/images/listing/listing_7.jpg'),
+                    place: 'Sydney, Australia',
+                    hotel: '3 Hotels'
                 },
             ]
         }

@@ -163,7 +163,7 @@
           <li
             class="has-submenu parent-menu-item"
             :class="
-              ['/list-apartement', '/list-kost'].includes(activeMenu)
+              ['/list-apartement', '/list-kost','/grid-ruko','/list-kantor'].includes(activeMenu)
                 ? 'active'
                 : ''
             "
@@ -174,7 +174,7 @@
             <ul
               class="submenu"
               :class="
-                ['/list-apartement', '/list-kost'].includes(menuOpen)
+                ['/list-apartement', '/list-kost','/grid-ruko','/list-kantor'].includes(menuOpen)
                   ? 'open'
                   : ''
               "
@@ -187,6 +187,16 @@
               <li :class="activeMenu === '/list-apartement' ? 'active' : ''">
                 <router-link to="/list-apartement" class="sub-menu-item"
                   >List Apartement</router-link
+                >
+              </li>
+              <li :class="activeMenu === '/grid-ruko' ? 'active' : ''">
+                <router-link to="/grid-ruko" class="sub-menu-item"
+                  >List Ruko</router-link
+                >
+              </li>
+              <li :class="activeMenu === '/list-kantor' ? 'active' : ''">
+                <router-link to="/list-kantor" class="sub-menu-item"
+                  >List Kantor</router-link
                 >
               </li>
             </ul>

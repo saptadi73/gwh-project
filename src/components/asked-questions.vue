@@ -1,16 +1,14 @@
 <template>
     <div class="container relative md:mt-24 mt-16">
         <div class="grid grid-cols-1 pb-6 text-center">
-            <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Frequently Asked
-                Questions</h3>
+            <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Pertanyaan yang Sering Diajukan</h3>
 
-            <p class="text-slate-400 max-w-xl mx-auto">This is just a simple text made for this unique and awesome
-                template, you can replace it with any text.</p>
+            <p class="text-slate-400 max-w-xl mx-auto">Beberapa pertanyaan yang sering diajukan pelanggan kami dalam memilih tempat tinggal dan usaha.</p>
         </div><!--end grid-->
 
         <div class="relative grid md:grid-cols-12 grid-cols-1 items-center mt-6 gap-6">
             <div class="md:col-span-6">
-                <img src="../assets/images/bg/6.jpg"
+                <img src="../assets/images/bg/bg_2.jpg"
                     class="w-full h-[540px] object-cover rounded-md shadow dark:shadow-gray-800" alt="">
             </div><!--end col-->
 
@@ -57,28 +55,28 @@ export default {
             datas: [
                 {
                     id: 1,
-                    title: 'How does it work ?',
-                    desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
+                    title: 'Apakah lokasi mudah terjangkau dengan moda transportasi publik ?',
+                    desc: 'Lokasi tempat tinggal yang kami sediakan sangat mudah menjangkau transportasi publik seperti kereta dan angkutan umum (transJakarta) juga MRT Jakarta.',
                 },
                 {
                     id: 2,
-                    title: 'Do I need a designer to use Travosy  ?',
-                    desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
+                    title: 'Bagaimana dengan kualitas air yang disediakan?',
+                    desc: 'Sumber air yang kami sediakan sangat bagus, tidak bau, dan selalu lancar. Kami memiliki lokasi di Depok dan Jakarta yang relatif memiliki sumber air yang masih sehat untuk warga',
                 },
                 {
                     id: 3,
-                    title: 'What do I need to do to start selling ?',
-                    desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
+                    title: 'Apakah ada tersedia diskon harga ?',
+                    desc: 'Untuk pelanggan setia kami, ada diskon yang bisa dimanfaatkan untuk jangka waktu tertentu dan pembayaran deposit dengan nominal tertentu. Semakin lama jangka waktu penyewaan dan deposit yang dibayarkan kami sediakan diskon yang lebih besar.',
                 },
                 {
                     id: 4,
-                    title: 'What happens when I receive an order ?',
-                    desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
+                    title: 'Adakah promo menarik untuk pelanggan yang lama tinggal di Kahuripan?',
+                    desc: 'Ada poin reward yang kami sediakan untuk setiap pembayaran yang dilakukan pelanggan. Poin ini bisa dikumpulkan dan ditukarkan dengan pulsa hp, PLN, atau potongan pembayaran berikutnya.',
                 },
                 {
                     id: 5,
-                    title: 'How does it work ?',
-                    desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
+                    title: 'Apakah ada indekos yang menyediakan kamatr mandi di dalam ?',
+                    desc: 'Kami menyediakan kamar kos dengan variasi harga tertentu untuk fasilitas kamar mandi di dalam.',
                 },
             ]
         }

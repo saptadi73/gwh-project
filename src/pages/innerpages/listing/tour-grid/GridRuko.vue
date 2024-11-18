@@ -1,5 +1,6 @@
 <template>
-        <div class="container relative">
+    <NavbarGwh />
+        <div class="container relative mt-20">
             <div class="grid grid-cols-1 pb-6 text-center mt-10">
                 <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Sewa Ruko Bisa Bikin Bisnis Anda Moncer</h3>
 
@@ -62,6 +63,7 @@
 
 <script>
 import pagination from '@/components/listing/tour-grid/pagination'
+import NavbarGwh from '../../../../components/NavbarGwh.vue';
 export default {
     name: 'tourGrid',
     data() {
@@ -119,36 +121,12 @@ export default {
                     tarif: 'Rp 25jt /bulan',
                     discount: '25% Off',
                 },
-                {
-                    image: require('../../../../assets/images/listing/ruko_7.jpg'),
-                    country: 'Bandung, Jawa Barat',
-                    city: 'Geger Kalong',
-                    rating: 122,
-                    tarif: 'Rp 8jt /bulan',
-                    discount: '10% Off',
-
-                },
-                {
-                    image: require('../../../../assets/images/listing/ruko_8.jpg'),
-                    country: 'BSD, Tangsel',
-                    city: 'Pasar Modern',
-                    tarif: '2jt /bulan',
-                    rating: 15,
-                    discount: '20% Off',
-                },
-                {
-                    image: require('../../../../assets/images/listing/ruko_9.jpg'),
-                    country: 'BSD, Tangsel',
-                    city: 'Pasar Modern',
-                    discount: '20% Off',
-                    tarif: '1,5jt /bulan',
-                    rating: 5
-                }
+                
             ]
         }
     },
     components: {
-        pagination,
+        pagination,NavbarGwh
     },
     mounted() {
         this.scrollToTop()

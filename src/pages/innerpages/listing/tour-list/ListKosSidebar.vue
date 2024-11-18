@@ -72,17 +72,7 @@
                                         class="text-lg font-medium hover:text-red-500 duration-500 ease-in-out">{{
         item.city }}</router-link>
 
-                                    <div class="flex items-center mt-2">
-                                        <span class="text-slate-400">Rating:</span>
-                                        <ul class="text-lg font-medium text-amber-400 list-none ms-2">
-                                            <li class="inline"><i class="mdi mdi-star align-middle"></i></li>
-                                            <li class="inline"><i class="mdi mdi-star align-middle"></i></li>
-                                            <li class="inline"><i class="mdi mdi-star align-middle"></i></li>
-                                            <li class="inline"><i class="mdi mdi-star align-middle"></i></li>
-                                            <li class="inline"><i class="mdi mdi-star align-middle"></i></li>
-                                            <li class="inline text-black dark:text-white text-sm">5.0({{ item.rating }})</li>
-                                        </ul>
-                                    </div>
+                                    
 
                                     <div
                                         class="mt-4 pt-4 flex justify-between items-center border-t border-slate-100 dark:border-gray-800">

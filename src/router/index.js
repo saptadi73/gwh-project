@@ -5,7 +5,7 @@ const routes = [
   {
     path: "/",
     name: "index",
-    component: () => import('@/pages/index/PageThree.vue'),
+    component: () => import('@/pages/index/page-four.vue'),
   },
   {
     path: "/index-two",
@@ -267,6 +267,16 @@ const routes = [
   name: 'user-list-invoice',
   component: () => import('@/pages/innerpages/my-account/UserListInvoice.vue')
  },
+ {
+  path: '/grid-ruko',
+  name: 'grid-ruko',
+  component: () => import('@/pages/innerpages/listing/tour-grid/GridRuko.vue')
+ },
+ {
+  path: '/list-kantor',
+  name: 'list-kantor',
+  component: () => import('@/components/ListKantor.vue')
+ }
 ];
 
 const router = createRouter({

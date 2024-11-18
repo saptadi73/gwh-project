@@ -1,7 +1,7 @@
 <template>
     <div class="p-4 rounded-md shadow dark:shadow-gray-700 sticky top-20">
         <div>
-            <h5 class="text-lg font-medium">Price Filter</h5>
+            <h5 class="text-lg font-medium">Filter</h5>
 
             <div class="range-slider mt-3">
                 <span class="flex justify-between pb-2">
@@ -25,7 +25,7 @@
         </div>
 
         <div class="mt-6">
-            <h5 class="text-lg font-medium">Reviews</h5>
+            <h5 class="text-lg font-medium">Fasilitas Kamar Mandi</h5>
 
             <div class="mt-3">
                 <div class="flex items-center mb-0">
@@ -33,13 +33,7 @@
                         class="form-checkbox rounded border-gray-100 dark:border-gray-800 text-red-500 focus:border-red-300 focus:ring focus:ring-offset-0 focus:ring-red-500/20 focus:ring-opacity-50 me-2"
                         type="checkbox" value="" id="5star">
                     <label class="form-checkbox-label text-slate-400" for="5star">
-                        <ul class="font-medium list-none">
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                        </ul>
+                        Kamar Mandi Luar
                     </label>
                 </div>
                 <div class="flex items-center mb-0">
@@ -47,18 +41,10 @@
                         class="form-checkbox rounded border-gray-100 dark:border-gray-800 text-red-500 focus:border-red-300 focus:ring focus:ring-offset-0 focus:ring-red-500/20 focus:ring-opacity-50 me-2"
                         type="checkbox" value="" id="4star">
                     <label class="form-checkbox-label text-slate-400" for="4star">
-                        <ul class="font-medium list-none">
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                            <li class="inline"><i class="mdi mdi-star text-amber-400 align-middle"></i></li>
-                            <li class="inline"><i
-                                    class="mdi mdi-star-outline text-slate-200 dark:text-gray-700 align-middle"></i>
-                            </li>
-                        </ul>
+                        Kamar Mandi Dalam
                     </label>
                 </div>
-                <div class="flex items-center mb-0">
+                <!-- <div class="flex items-center mb-0">
                     <input
                         class="form-checkbox rounded border-gray-100 dark:border-gray-800 text-red-500 focus:border-red-300 focus:ring focus:ring-offset-0 focus:ring-red-500/20 focus:ring-opacity-50 me-2"
                         type="checkbox" value="" id="3star">
@@ -117,27 +103,27 @@
                             </li>
                         </ul>
                     </label>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <div class="mt-6">
-            <h5 class="text-lg font-medium">Booking Activity</h5>
+            <h5 class="text-lg font-medium">Model Pembayaran</h5>
 
             <div class="mt-3">
                 <div class="flex items-center mb-0">
                     <input
                         class="form-checkbox rounded border-gray-100 dark:border-gray-800 text-red-500 focus:border-red-300 focus:ring focus:ring-offset-0 focus:ring-red-500/20 focus:ring-opacity-50 me-2"
                         type="checkbox" value="" id="Bali">
-                    <label class="form-checkbox-label text-slate-400" for="Bali">Bali Park</label>
+                    <label class="form-checkbox-label text-slate-400" for="Bali">Bulanan</label>
                 </div>
                 <div class="flex items-center mb-0">
                     <input
                         class="form-checkbox rounded border-gray-100 dark:border-gray-800 text-red-500 focus:border-red-300 focus:ring focus:ring-offset-0 focus:ring-red-500/20 focus:ring-opacity-50 me-2"
                         type="checkbox" value="" id="Paris">
-                    <label class="form-checkbox-label text-slate-400" for="Paris">Paris</label>
+                    <label class="form-checkbox-label text-slate-400" for="Paris">Tahunan</label>
                 </div>
-                <div class="flex items-center mb-0">
+                <!-- <div class="flex items-center mb-0">
                     <input
                         class="form-checkbox rounded border-gray-100 dark:border-gray-800 text-red-500 focus:border-red-300 focus:ring focus:ring-offset-0 focus:ring-red-500/20 focus:ring-opacity-50 me-2"
                         type="checkbox" value="" id="Arcadia">
@@ -160,7 +146,7 @@
                         class="form-checkbox rounded border-gray-100 dark:border-gray-800 text-red-500 focus:border-red-300 focus:ring focus:ring-offset-0 focus:ring-red-500/20 focus:ring-opacity-50 me-2"
                         type="checkbox" value="" id="California">
                     <label class="form-checkbox-label text-slate-400" for="California">California</label>
-                </div>
+                </div> -->
             </div>
         </div>
 
