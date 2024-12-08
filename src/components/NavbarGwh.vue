@@ -163,18 +163,18 @@
           <li
             class="has-submenu parent-menu-item"
             :class="
-              ['/list-apartement', '/list-kost','/grid-ruko','/list-kantor'].includes(activeMenu)
+              ['/list-apartement', '/list-kost','/list-item'].includes(activeMenu)
                 ? 'active'
                 : ''
             "
           >
-            <router-link to="" @click="submenu('/index-item')"
+            <router-link to="" @click="submenu('/list-item')"
               >Listing <span class="menu-arrow"></span
             ></router-link>
             <ul
               class="submenu"
               :class="
-                ['/list-apartement', '/list-kost','/grid-ruko','/list-kantor'].includes(menuOpen)
+                ['/list-apartement', '/list-kost','/list-item'].includes(menuOpen)
                   ? 'open'
                   : ''
               "
@@ -189,34 +189,24 @@
                   >List Apartement</router-link
                 >
               </li>
-              <li :class="activeMenu === '/grid-ruko' ? 'active' : ''">
-                <router-link to="/grid-ruko" class="sub-menu-item"
-                  >List Ruko</router-link
-                >
-              </li>
-              <li :class="activeMenu === '/list-kantor' ? 'active' : ''">
-                <router-link to="/list-kantor" class="sub-menu-item"
-                  >List Kantor</router-link
-                >
-              </li>
             </ul>
           </li>
 
           <li
             class="has-submenu parent-menu-item"
             :class="
-              ['/apartement-detail-one', '/kos-detail-two'].includes(activeMenu)
+              ['/apartement-detail-one', '/kos-detail-two','/list-detail'].includes(activeMenu)
                 ? 'active'
                 : ''
             "
           >
-            <router-link to="" @click="submenu('/index-item')"
+            <router-link to="" @click="submenu('/list-detail')"
               >Detail<span class="menu-arrow"></span
             ></router-link>
             <ul
               class="submenu"
               :class="
-                ['/apartement-detail-one', '/kos-detail-two'].includes(menuOpen)
+                ['/apartement-detail-one', '/kos-detail-two','/list-detail'].includes(menuOpen)
                   ? 'open'
                   : ''
               "
@@ -237,18 +227,18 @@
           <li
             class="has-submenu parent-menu-item"
             :class="
-              ['/user-profile-gwh', '/user-list-invoice','/user-payment-gwh'].includes(activeMenu)
+              ['/user-profile-gwh', '/user-list-invoice','/user-payment-gwh','/user-list-item'].includes(activeMenu)
                 ? 'active'
                 : ''
             "
           >
-            <router-link to="" @click="submenu('/index-item')"
+            <router-link to="" @click="submenu('/user-list-item')"
               >User <span class="menu-arrow"></span
             ></router-link>
             <ul
               class="submenu"
               :class="
-                ['/user-profile-gwh', '/user-list-invoice','/user-payment-gwh'].includes(menuOpen)
+                ['/user-profile-gwh', '/user-list-invoice','/user-payment-gwh','/user-list-item'].includes(menuOpen)
                   ? 'open'
                   : ''
               "
