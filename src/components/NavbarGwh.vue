@@ -163,7 +163,7 @@
           <li
             class="has-submenu parent-menu-item"
             :class="
-              ['/list-apartement', '/list-kost','/list-item'].includes(activeMenu)
+              ['/list-kost','/list-rumah','/list-villa','/list-apartement','/grid-ruko','/list-kantor','/list-item'].includes(activeMenu)
                 ? 'active'
                 : ''
             "
@@ -174,7 +174,7 @@
             <ul
               class="submenu"
               :class="
-                ['/list-apartement', '/list-kost','/list-item'].includes(menuOpen)
+                ['/list-kost','/list-rumah','/list-villa','/list-apartement','/grid-ruko','/list-kantor','/list-item'].includes(menuOpen)
                   ? 'open'
                   : ''
               "
@@ -184,9 +184,29 @@
                   >List Kost</router-link
                 >
               </li>
+              <li :class="activeMenu === '/list-rumah' ? 'active' : ''">
+                <router-link to="/list-rumah" class="sub-menu-item"
+                  >List Rumah</router-link
+                >
+              </li>
+              <li :class="activeMenu === '/list-villa' ? 'active' : ''">
+                <router-link to="/list-villa" class="sub-menu-item"
+                  >List Villa</router-link
+                >
+              </li>
               <li :class="activeMenu === '/list-apartement' ? 'active' : ''">
                 <router-link to="/list-apartement" class="sub-menu-item"
                   >List Apartement</router-link
+                >
+              </li>
+              <li :class="activeMenu === '/grid-ruko' ? 'active' : ''">
+                <router-link to="/grid-ruko" class="sub-menu-item"
+                  >List Ruko</router-link
+                >
+              </li>
+              <li :class="activeMenu === '/grid-office' ? 'active' : ''">
+                <router-link to="/grid-office" class="sub-menu-item"
+                  >List Kantor</router-link
                 >
               </li>
             </ul>

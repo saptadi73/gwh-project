@@ -276,7 +276,22 @@ const routes = [
   path: '/list-kantor',
   name: 'list-kantor',
   component: () => import('@/components/ListKantor.vue')
- }
+ },
+ {
+  path: '/grid-office',
+  name: '/grid-office',
+  component: () => import('@/pages/innerpages/listing/tour-grid/grid-right-sidebar-office.vue')
+ },
+ {
+  path: '/list-rumah',
+  name: '/list-rumah',
+  component: () => import('@/pages/innerpages/listing/tour-list/list-rumah.vue')
+ },
+ {
+  path: '/list-villa',
+  name: '/list-villa',
+  component: () => import('@/components/list-villa.vue')
+ },
 ];
 
 const router = createRouter({
