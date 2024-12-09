@@ -163,7 +163,7 @@
           <li
             class="has-submenu parent-menu-item"
             :class="
-              ['/list-kost','/list-rumah','/list-villa','/list-apartement','/grid-ruko','/list-kantor','/list-item'].includes(activeMenu)
+              ['/list-kost','/list-rumah','/list-villa','/list-apartement','/grid-ruko','/list-kantor','/list-lapak','/list-item'].includes(activeMenu)
                 ? 'active'
                 : ''
             "
@@ -174,7 +174,7 @@
             <ul
               class="submenu"
               :class="
-                ['/list-kost','/list-rumah','/list-villa','/list-apartement','/grid-ruko','/list-kantor','/list-item'].includes(menuOpen)
+                ['/list-kost','/list-rumah','/list-villa','/list-apartement','/grid-ruko','/list-kantor','/list-lapak','/list-item'].includes(menuOpen)
                   ? 'open'
                   : ''
               "
@@ -209,24 +209,29 @@
                   >List Kantor</router-link
                 >
               </li>
+              <li :class="activeMenu === '/list-lapak' ? 'active' : ''">
+                <router-link to="/list-lapak" class="sub-menu-item"
+                  >List Lapak</router-link
+                >
+              </li>
             </ul>
           </li>
 
           <li
             class="has-submenu parent-menu-item"
             :class="
-              ['/apartement-detail-one', '/kos-detail-two','/list-detail'].includes(activeMenu)
+              ['/apartement-detail-one', '/kos-detail-two','/rumah-detail-one','/villa-detail-two','/list-detail'].includes(activeMenu)
                 ? 'active'
                 : ''
             "
           >
             <router-link to="" @click="submenu('/list-detail')"
-              >Detail<span class="menu-arrow"></span
+              >Detail in 360<sup>0</sup>View<span class="menu-arrow"></span
             ></router-link>
             <ul
               class="submenu"
               :class="
-                ['/apartement-detail-one', '/kos-detail-two','/list-detail'].includes(menuOpen)
+                ['/apartement-detail-one', '/kos-detail-two','/rumah-detail-one','/villa-detail-two','/list-detail'].includes(menuOpen)
                   ? 'open'
                   : ''
               "
@@ -239,6 +244,16 @@
               <li :class="activeMenu === '/apartement-detail-one' ? 'active' : ''">
                 <router-link to="/apartement-detail-one" class="sub-menu-item"
                   >Apartement</router-link
+                >
+              </li>
+              <li :class="activeMenu === '/rumah-detail-one' ? 'active' : ''">
+                <router-link to="/rumah-detail-one" class="sub-menu-item"
+                  >Rumah</router-link
+                >
+              </li>
+              <li :class="activeMenu === '/villa-detail-two' ? 'active' : ''">
+                <router-link to="/villa-detail-two" class="sub-menu-item"
+                  >Villa</router-link
                 >
               </li>
             </ul>

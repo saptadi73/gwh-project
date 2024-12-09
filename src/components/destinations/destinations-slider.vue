@@ -35,9 +35,12 @@
                     <div v-for="item in destinations" :key="item" class="tiny-slide">
                         <div class="group text-center m-2">
                             <div class="relative overflow-hidden rounded-full">
-                                <img :src="item.image"
+                                <router-link :to="`${item.link}`">
+                                    <img :src="item.image"
                                     class="w-full md:h-32 h-36 object-cover scale-125 group-hover:scale-100 duration-500 shadow dark:shadow-gray-800"
                                     alt="">
+                                </router-link>
+                                
                             </div>
 
                             <div class="mt-2">
@@ -71,37 +74,44 @@ export default {
                 {
                     image: require('../../assets/images/listing/listing_93.jpg'),
                     place: 'Indekos',
-                    hotel: 'Depok, Bandung'
+                    hotel: 'Depok, Bandung',
+                    link: '/list-kost'
                 },
                 {
                     image: require('../../assets/images/listing/listing_2.jpg'),
                     place: 'Rumah',
-                    hotel: 'Jakarta, Bandung, Depok'
+                    hotel: 'Jakarta, Bandung, Depok',
+                    link: '/list-rumah'
                 },
                 {
                     image: require('../../assets/images/listing/listing_1.jpg'),
                     place: 'Apartemen',
-                    hotel: 'Jakarta, Bandung'
+                    hotel: 'Jakarta, Bandung',
+                    link: '/list-apartement'
                 },
                 {
                     image: require('../../assets/images/listing/ruko_8.jpg'),
                     place: 'Lapak',
-                    hotel: 'Jakarta, Bandung'
+                    hotel: 'Jakarta, Bandung',
+                    link: '/list-lapak'
                 },
                 {
                     image: require('../../assets/images/listing/villa_1.jpg'),
                     place: 'Villa',
-                    hotel: 'Bandung'
+                    hotel: 'Bandung',
+                    link: '/list-villa'
                 },
                 {
                     image: require('../../assets/images/listing/ruko_4.jpg'),
                     place: 'Ruko',
-                    hotel: 'Bandung, Jakarta'
+                    hotel: 'Bandung, Jakarta',
+                    link: '/grid-ruko'
                 },
                 {
                     image: require('../../assets/images/listing/kantor_1.jpg'),
                     place: 'Kantor',
-                    hotel: 'Jakarta'
+                    hotel: 'Jakarta',
+                    link: '/grid-office'
                 },
             ]
         }

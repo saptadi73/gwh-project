@@ -213,6 +213,11 @@ const routes = [
     component: () => import('@/pages/innerpages/listing/tour-detail/ApartementDetailOne.vue')
   },
   {
+    path: '/rumah-detail-one',
+    name: 'rumah-detail-one',
+    component: () => import('@/pages/innerpages/listing/tour-detail/RumahDetailOne.vue')
+  },
+  {
     path: '/list-kost',
     name: 'list-kost-sidebar',
     component: () => import('@/pages/innerpages/listing/tour-list/ListKosSidebar.vue')
@@ -221,6 +226,11 @@ const routes = [
     path: '/kos-detail-two',
     name: 'kos-detail-two',
     component: () => import('@/pages/innerpages/listing/tour-detail/KosDetailTwo.vue')
+  },
+  {
+    path: '/villa-detail-two',
+    name: 'villa-detail-two',
+    component: () => import('@/pages/innerpages/listing/tour-detail/villa-detail-two.vue')
   },
  {
   path: '/user-profile-gwh',
@@ -291,6 +301,11 @@ const routes = [
   path: '/list-villa',
   name: '/list-villa',
   component: () => import('@/components/list-villa.vue')
+ },
+ {
+  path: '/list-lapak',
+  name: '/list-lapak',
+  component: () => import('@/pages/innerpages/listing/tour-grid/grid-lapak.vue')
  },
 ];
 
